@@ -2,13 +2,21 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 54%
+    right: 90%
+    width: 98px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 15%
+    right: 7%
+    width: 98px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 73%
+    right: 0%
+    width: 98px
 
 
 @keyframes float1
@@ -18,16 +26,71 @@
   100%
     transform: translateY(0px)
   
+.banner-principal
+  .banner-principal__row
+    .banner-principal__img
+      padding-bottom: 0 !important
+      margin-bottom: -3px
+      img
+        max-width: 450px !important
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/fondo-header-page.jpg') !important
   
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 331px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important   
 
 figcaption
   font-weight: normal
- 
+
+.bg-image
+  margin-right: -3rem
+  margin-left: -3rem
+  padding-left: 3rem
+  padding-right: 3rem
+  background-repeat: no-repeat
+  background-position: 0 74%
+
+.titulo-segundo-nivel
+  position: relative
+  display: flex
+  margin-right: auto
+  align-items: flex-end
+  justify-content: flex-start
+  padding-right: 1.3rem
+  padding-left: .7rem
+  gap: 1rem
+  &::before
+    content: ''
+    background-color: #2D3BF3
+    position: absolute
+    width: 100%
+    height: 70%
+    left: 0
+    bottom: 0
+    border-radius: 5px
+  img
+    max-width: 45px
+    position: relative
+  h2
+    margin-bottom: .3rem
+    position: relative
+    color: white
+
+.slyder-a
+  background-color: white
+  .slyder-a__tipo-b
+    .slyder-a__bullets
+      .slyder-a__bullets__item
+        background-color: #B5BAFB
+        border-color: #B5BAFB
+        &--active, &:hover
+          background-color: #2D3BF3
+          border-color: #2D3BF3
+    .slyder-a__btn--atrs, .slyder-a__btn--sigt
+      background-color: #FF8C16
