@@ -88,6 +88,6 @@ export default {
   background-position: bottom right
 .bg-image.bg-image-1
   padding-bottom: 1.5rem !important
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(253,250,230,1) 0%, rgba(253,250,230,1) 75%, transparent 100%);
+  background: rgb(0,0,0)
+  background: linear-gradient(0deg, rgba(253,250,230,1) 0%, rgba(253,250,230,1) 75%, transparent 100%)
 </style>

@@ -39,11 +39,16 @@ export default {
         titulo: 'Confiabilidad y fallas',
         desarrolloContenidos: true,
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
         titulo: 'Fallas y quejas comunes de la transmisión',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema3',
+        numero: '3',
+        titulo: 'Diagnóstico y solución de problemas',
         desarrolloContenidos: true,
       },
     ],
