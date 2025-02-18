@@ -25,7 +25,11 @@
 
   100%
     transform: translateY(0px)
-  
+
+.inicio
+  .banner-principal
+    .tarjeta, .container
+      background-position: 10% center !important
 .banner-principal
   .banner-principal__row
     .banner-principal__img
@@ -81,6 +85,9 @@ figcaption
     margin-bottom: .3rem
     position: relative
     color: white
+    font-size: 20px
+  @media (max-width: 500px)
+    min-height: 90px
 
 .slyder-a
   background-color: white
@@ -99,3 +106,12 @@ figcaption
   li::before
     content: url('../assets/curso/temas/tema2/check-li.svg')
     padding-right: .4rem
+
+.bg-image.bg-image-slider
+  background-image: url('../assets/curso/temas/tema1/bg-1.jpg')
+  background-size: cover
+  background-position: bottom right
+.bg-image.bg-image-1
+  padding-bottom: 1.5rem !important
+  background: rgb(0,0,0)
+  background: linear-gradient(0deg, rgba(253,250,230,1) 0%, rgba(253,250,230,1) 75%, transparent 100%)

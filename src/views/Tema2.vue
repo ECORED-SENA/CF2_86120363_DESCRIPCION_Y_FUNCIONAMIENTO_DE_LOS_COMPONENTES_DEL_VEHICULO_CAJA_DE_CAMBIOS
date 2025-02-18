@@ -29,7 +29,7 @@
       p.mb-5 La dificultad para realizar un cambio también puede ser causada por el atascamiento del eje selector o las horquillas. Esta condición también puede deberse a un problema en el embrague y ocasionalmente a una transmisión mal alineada.  
 
       .d-flex.flex-wrap.justify-content-center.align-items-center.gap-4.mb-4(data-aos="fade-right")
-        .col-12.col-md.order-2.order-lg-1.d-flex
+        .col-12.col-lg.order-2.order-lg-1.d-flex
           p.mb-0.p-4(style="background-color: #E8EAFD") Los cambios duros pueden diagnosticarse fácilmente. Si la palanca de cambios se mueve con facilidad cuando el motor está apagado, pero el cambio se vuelve duro con el motor en marcha, es probable que el problema esté en el embrague o que la carcasa esté desalineada. Los sincronizadores con problemas también pueden ser responsables de la dificultad para cambiar una marcha.
         .col-auto.order-1.order-lg-2
           img(src="@/assets/curso/temas/tema2/img-3.png" style="max-width: 395px").img65
@@ -45,8 +45,8 @@
       .col-auto.order-1.order-lg-2
         img(src="@/assets/curso/temas/tema2/img-4.svg").img65
 
-    .col-xl-10.mx-auto.d-flex.flex-wrap.mb-5
-      .col-lg-4(data-aos="fade-right")
+    .col-xl-10.mx-auto.d-flex.flex-wrap.mb-5.justify-content-center
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         img(src="@/assets/curso/temas/tema2/img-5.jpg")
       .col-lg-8.p-4.px-lg-5(style="background-color: #F1EDE6" data-aos="fade-left")
         p.fw-bold.mb-4 Otras causas de que el cambio se salga durante una marcha son: 
@@ -96,11 +96,10 @@
             h3(style="color: #F3D913") Pódcast
             p.text-white Operación ruidosa
             .tarjeta.audio-t3.p-4.text-white
-              | audio pendiente
-              //- TarjetaAudio.color-secundario.audio-c(
-              //-   texto="Preparación de paella de mariscos"
-              //-   :audio="require('@/assets/curso/temas/tema2/Audio-1.mp3')"
-              //- )
+              TarjetaAudio.color-secundario.audio-c(
+                texto="Operación ruidosa"
+                :audio="require('@/assets/curso/temas/tema2/Audio-1.mp3')"
+              )
       .col-lg-5.mb-4.order-1.order-lg-2
         img.mb-auto(src="@/assets/curso/temas/tema2/img-9.png" data-aos="fade-left")
     
@@ -110,6 +109,95 @@
         h2(data-aos="fade-left") Golpeteo o ruido sordo
     
     p.mb-5 Un golpeteo puede ser causado por:
+
+    .d-flex.flex-wrap.gap-md-3.mb-5
+      .col-12.col-lg.mb-4.mb-lg-0.d-flex
+        .tarjeta--boton.color-primario.p-4.w-100
+          .row.justify-content-center.mb-3
+            img(src='@/assets/curso/temas/tema2/img-10.svg', alt='Texto que describa la imagen' style="max-width: 108px")
+          h4.text-center Engranes:
+          p.text-center abolladuras o inflamaciones en el diente de engrane. 
+
+      .col-12.col-lg.mb-4.mb-lg-0.d-flex
+        .tarjeta--boton.color-primario.p-4.w-100
+          .row.justify-content-center.mb-3
+            img(src='@/assets/curso/temas/tema2/img-11.svg', alt='Texto que describa la imagen' style="max-width: 108px")
+          h4.text-center Rodamientos:
+          p.text-center el ruido aparece a velocidades de flecha bajas en cualquier posición. Se produce por los rodamientos con bolas o rodillos dañados, o con superficies resquebrajadas o astilladas. 
+      
+      .col-12.col-lg.mb-4.mb-lg-0.d-flex
+        .tarjeta--boton.color-primario.p-4.w-100
+          .row.justify-content-center.mb-3
+            img(src='@/assets/curso/temas/tema2/img-12.svg', alt='Texto que describa la imagen' style="max-width: 108px")
+          h4.text-center Engranaje fisurado:
+          p.text-center un engranaje fisurado o roto por carga de choque o por presionar la flecha durante la instalación producirá este sonido a bajas velocidades. A altas velocidades habrá un zumbido. 
+    
+    p.mb-5 Un ruido de golpeteo puede comenzar como un gruñido; a medida que los cojinetes y los retenedores comienzan a deteriorarse, el ruido aumenta. En la mayoría de las transmisiones, el ruido producido será más prominente cuando se carga el engranaje, lo que facilita la identificación del engranaje que tiene problemas. 
+
+    .d-flex.justify-content-start.mb-4
+      .titulo-segundo-nivel
+        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
+        h2(data-aos="fade-left") Chirrido o gemido muy agudo 
+    
+    p.mb-4 Se puede producir por:
+
+    .bg-image.bg-image-slider.py-5.mb-5
+      SlyderA.tarjeta.p-4(tipo="b" data-aos="fade-right")
+        .d-flex.flex-wrap.justify-content-center.align-items-start.my-lg-4.col-xl-10.mx-auto
+          .col-lg-6.col-xl-7.mb-4.mb-md-0.order-2.order-lg-1.pe-lg-4
+            p.fw-bold Desgaste de engranaje
+            p Se produce por el desgaste normal del engranaje e incluso por el resquebrajamiento del diente de engrane debido al uso excesivo. Cuando existe un deterioro avanzado, se producirá un zumbido.
+
+          .col-lg-6.col-xl-5.order-1.order-lg-2.mb-4.mb-lg-0
+            img(src='@/assets/curso/temas/tema2/img-13.png', alt='Texto que describa la imagen')
+        
+        .d-flex.flex-wrap.justify-content-center.align-items-start.my-lg-4.col-xl-10.mx-auto
+          .col-lg-6.col-xl-7.mb-4.mb-md-0.order-2.order-lg-1.pe-lg-4
+            p.fw-bold Trenes de engranes no coincidentes
+            p Este tipo de tren de engranes se identifica por un patrón de desgaste irregular en la parte frontal del diente de engrane.
+
+          .col-lg-6.col-xl-5.order-1.order-lg-2.mb-4.mb-lg-0
+            img(src='@/assets/curso/temas/tema2/img-14.png', alt='Texto que describa la imagen')
+        
+        .d-flex.flex-wrap.justify-content-center.align-items-start.my-lg-4.col-xl-10.mx-auto
+          .col-lg-6.col-xl-7.mb-4.mb-md-0.order-2.order-lg-1.pe-lg-4
+            p.fw-bold Rodamientos
+            p Los rodamientos “estrangulados” que tienen una holgura radial o axial insuficiente también pueden producir un silbido.
+
+          .col-lg-6.col-xl-5.order-1.order-lg-2.mb-4.mb-lg-0
+            img(src='@/assets/curso/temas/tema2/img-15.png', alt='Texto que describa la imagen')
+
+    .bg-image.bg-image-1
+      .d-flex.justify-content-start.mb-4
+        .titulo-segundo-nivel
+          img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
+          h2(data-aos="fade-left") Gruñidos
+      
+      p.mb-4 Un gruñido puede ser causado por:
+
+      .col-xl-10.mx-auto.d-flex.flex-wrap.justify-content-center.mb-5
+        .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema2/img-16.jpg")
+        .col-lg-8.p-4.d-flex.align-items-center(style="background-color: #F1EDE6" data-aos="fade-left")
+          ul.ul-marker-check.mb-0
+            li.mb-2 La sincronización inadecuada de la transmisión durante el montaje.
+            li La sincronización inadecuada debido al giro del engranaje en el eje intermediario.
+
+      p.mb-4 Ambas condiciones producen un error en el espaciado de los dientes. Los ruidos de baja frecuencia como gruñidos, zumbidos o un sonido de trituración generalmente son causados por engranajes desgastados, astillados, ásperos o agrietados. 
+
+      .col-xl-10.mx-auto.d-flex.flex-wrap.justify-content-center.mb-5
+        .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema2/img-17.jpg")
+        .col-lg-8.p-4.d-flex.flex-wrap.align-content-center(style="background-color: #F1EDE6" data-aos="fade-left")
+          p.fw-bold.mb-4 Las causas comunes por las que se deteriora una transmisión son:  
+          ul.ul-marker-check.mb-0
+            li.mb-2 Mal uso del embrague al hacer cambios de marcha, como no presionarlo completamente.
+            li.mb-2 Sincronización manual inadecuada de las velocidades.
+            li.mb-2 Apoyar la mano continuamente sobre la palanca de cambios ejerce una presión que ocasiona problemas de holguras en las arandelas y muelles de la palanca de cambios, además de averías en las horquillas selectoras de velocidades.
+            li.mb-2 Bajo nivel de aceite.
+            li.mb-2 No hacer cambio de aceite en el tiempo o kilometraje estipulado por el fabricante.
+            li.mb-2 Usar un aceite inadecuado que no coincide con las especificaciones recomendadas por el fabricante.
+
 </template>
 
 <script>

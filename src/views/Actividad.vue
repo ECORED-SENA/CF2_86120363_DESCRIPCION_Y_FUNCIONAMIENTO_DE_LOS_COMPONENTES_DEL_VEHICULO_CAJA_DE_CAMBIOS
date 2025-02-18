@@ -17,38 +17,37 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Estado, diagnóstico y fallas comunes de la caja de cambios manual',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Identificar las fallas comunes, diagnosticar problemas y aplicar estrategias de mantenimiento para garantizar el correcto funcionamiento y prolongar la vida útil de las cajas de cambios manuales.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Cuál es el componente principal que conecta la transmisión del vehículo con el motor?',
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Motor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Caja de cambios.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Eje primario.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Embrague.',
               esCorrecta: false,
             },
           ],
@@ -58,28 +57,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Qué factor afecta la confiabilidad operacional de una caja de cambios?',
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Mal uso del aceite.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Mala calidad de los engranajes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Confiabilidad de los procesos.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Velocidad del motor.',
               esCorrecta: false,
             },
           ],
@@ -88,30 +87,30 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            '¿Qué ruido puede indicar que hay rodamientos desgastados en la transmisión?',
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
+              texto: 'Golpeteo o ruido sordo.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Chirrido agudo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Vibración constante.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Operación silenciosa.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -119,29 +118,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué ocurre si el nivel de aceite en la transmisión es bajo?',
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Los engranajes funcionan mejor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'El aceite se enfría rápidamente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'La transmisión se desgasta más rápido.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'El embrague se ajusta automáticamente.',
               esCorrecta: false,
             },
           ],
@@ -150,30 +148,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué condición podría provocar un salto de marcha?',
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Exceso de lubricante.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Sincronizadores desgastados.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Cambio lento de marchas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Engranajes perfectamente alineados.',
               esCorrecta: false,
             },
           ],
@@ -183,28 +179,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Qué técnica es esencial para diagnosticar problemas en la transmisión?',
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Cambiar el lubricante.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Escuchar atentamente al conductor.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Desarmar la caja de cambios.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Revisar las ruedas motrices.',
               esCorrecta: false,
             },
           ],
@@ -213,29 +209,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué puede generar una vibración en la transmisión?',
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Desgaste de los frenos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Condiciones de sobrecarga.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Altas velocidades.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Aceite contaminado.',
               esCorrecta: false,
             },
           ],
@@ -244,29 +239,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué práctica prolonga la vida útil de la caja de cambios?',
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Utilizar cualquier lubricante disponible.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Realizar mantenimiento preventivo.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Evitar el cambio de aceite.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Manejar con cambios abruptos.',
               esCorrecta: false,
             },
           ],
@@ -276,19 +270,19 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'La confiabilidad humana se refiere a las competencias de los mecánicos y conductores.',
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -297,19 +291,19 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'Mantener la mano sobre la palanca de cambios no afecta la confiabilidad de la transmisión.',
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -317,19 +311,28 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: '¿Qué condición causa dificultad para realizar cambios?',
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Aceite en buen estado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Engranajes nuevos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Horquillas dobladas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Nivel adecuado de lubricante.',
               esCorrecta: true,
             },
           ],
@@ -339,19 +342,29 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Cuál de los siguientes elementos NO es una causa de ruido en la transmisión?',
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Ángulos de juntas desiguales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Rodamientos desgastados.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ruedas desbalanceadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cambio sincronizado.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -359,19 +372,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿Qué práctica inadecuada puede dañar la transmisión?',
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Cambio de aceite puntual.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Uso de aceite recomendado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Apoyar la mano continuamente sobre la palanca.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Mantener el embrague ajustado.',
               esCorrecta: false,
             },
           ],
@@ -380,20 +402,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿Qué se evalúa en un diagnóstico correcto?',
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Únicamente el nivel de aceite.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Solo las condiciones externas del vehículo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Todos los componentes relacionados con la transmisión.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El tipo de combustible.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -401,19 +432,28 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿Qué describe el término "confiabilidad operacional"?',
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'La facilidad de desarmar un equipo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La cantidad de fallas detectadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La capacidad de un sistema de cumplir su función.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El rendimiento del combustible.',
               esCorrecta: false,
             },
           ],
