@@ -24,7 +24,7 @@
         .d-flex.justify-content-start.mb-4
           .titulo-segundo-nivel
             img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-            h2(data-aos="fade-left") Confiabilidad operacional
+            h3(data-aos="fade-left") Confiabilidad operacional
 
         p(data-aos="fade-right") La confiabilidad operacional se refiere a la capacidad de un sistema integrado por procesos, tecnología y personas capaces de cumplir su función dentro de los límites de diseño bajo unas condiciones de operación específicas.
           

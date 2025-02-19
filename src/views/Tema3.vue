@@ -12,7 +12,7 @@
     .d-flex.justify-content-start.mb-4
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-        h2(data-aos="fade-left") Consejos útiles para el diagnóstico
+        h3(data-aos="fade-left") Consejos útiles para el diagnóstico
     
     p.mb-4 Para realizar un buen diagnóstico se debe comenzar escuchando atentamente al cliente o al conductor sobre los inconvenientes que presenta el vehículo con la caja de cambios; después se debe hacer lo siguiente:
 
@@ -68,7 +68,7 @@
       .d-flex.justify-content-start.mb-4
         .titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-          h2(data-aos="fade-left") Guía de solución de problemas
+          h3(data-aos="fade-left") Guía de solución de problemas
       
       .d-flex.flex-wrap.justify-content-center.align-items-center.gap-4.mb-4(data-aos="fade-right")
         .col-12.col-lg.order-2.order-lg-1.d-flex

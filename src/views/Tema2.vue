@@ -17,7 +17,7 @@
       .d-flex.justify-content-start.mb-4
         .titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-          h2(data-aos="fade-left") Dificultad para realizar el cambio
+          h3(data-aos="fade-left") Dificultad para realizar el cambio
         
       .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.mb-5(style="background-color: #FAEFA0")
         .bloque-texto-g__img(
@@ -37,7 +37,7 @@
     .d-flex.justify-content-start.mb-4
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-        h2(data-aos="fade-left") Corrimiento y salto de marcha
+        h3(data-aos="fade-left") Corrimiento y salto de marcha
     
     .d-flex.flex-wrap.justify-content-center.align-items-center.gap-4.p-3.mb-4(data-aos="fade-right")
       .col-12.col-md.order-2.order-lg-1
@@ -60,7 +60,7 @@
       .d-flex.justify-content-start.mb-4
         .titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-          h2(data-aos="fade-left") Vibración
+          h3(data-aos="fade-left") Vibración
       
       p.mb-5(data-aos="fade-right") Las vibraciones de la transmisión pueden ser muy difíciles de identificar; no hay que olvidar que pueden ser producidas por cualquier componente del sistema de transmisión, por lo que se debe incluir desde el motor hasta los conjuntos de la rueda motriz.
 
@@ -83,7 +83,7 @@
       .d-flex.justify-content-start.mb-4
         .titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-          h2(data-aos="fade-left") Operación ruidosa 
+          h3(data-aos="fade-left") Operación ruidosa 
       
       p.mb-5(data-aos="fade-right") En el siguiente podcast se analizará qué es la operación ruidosa, cómo identificarla y las posibles causas detrás de este fenómeno.
 
@@ -95,8 +95,8 @@
           .col-12.col-xl
             h3(style="color: #F3D913") Pódcast
             p.text-white Operación ruidosa
-            .tarjeta.audio-t3.p-4.text-white
-              TarjetaAudio.color-secundario.audio-c(
+            .tarjeta.audio-t3.p-4.audio-t2
+              TarjetaAudio.color-acento-contenido.audio-c(
                 texto="Operación ruidosa"
                 :audio="require('@/assets/curso/temas/tema2/Audio-1.mp3')"
               )
@@ -106,7 +106,7 @@
     .d-flex.justify-content-start.mb-4
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-        h2(data-aos="fade-left") Golpeteo o ruido sordo
+        h3(data-aos="fade-left") Golpeteo o ruido sordo
     
     p.mb-5 Un golpeteo puede ser causado por:
 
@@ -137,7 +137,7 @@
     .d-flex.justify-content-start.mb-4
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-        h2(data-aos="fade-left") Chirrido o gemido muy agudo 
+        h3(data-aos="fade-left") Chirrido o gemido muy agudo 
     
     p.mb-4 Se puede producir por:
 
@@ -171,7 +171,7 @@
       .d-flex.justify-content-start.mb-4
         .titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-          h2(data-aos="fade-left") Gruñidos
+          h3(data-aos="fade-left") Gruñidos
       
       p.mb-4 Un gruñido puede ser causado por:
 
@@ -222,4 +222,25 @@ export default {
   padding-bottom: 1.5rem !important
   background: rgb(0,0,0)
   background: linear-gradient(0deg, transparent 0%, rgba(253,250,230,1) 25%, rgba(253,250,230,1) 75%, transparent 100%)
+.audio-t2
+  border: 3px solid #F3D913
+  background-color: #E8EAFD
+  &:deep(.audio-c)
+    min-height: auto !important
+    border: none
+    .tarjeta-audio__texto
+      color: #12263F
+      margin-bottom: 2rem !important
+    .audio
+      margin-bottom: auto
+    > div
+      align-items: flex-start !important
+    .audio__btn
+      margin-top: -2rem
+      background-color: #A8960D
+    .tarjeta-audio__input input[type=range]
+      background: #2D3BF3
+      background-image: linear-gradient(#1E29A8, #1E29A8)
+      &::-webkit-slider-thumb
+        background-color: #1E29A8
 </style>
