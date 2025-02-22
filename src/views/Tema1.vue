@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Titulo de primer nivel
+        h1 Confiabilidad y fallas
       .bg-image.bg-image-1.pb-5
         p.mb-4(data-aos="fade-right") La confiabilidad es la probabilidad de que un determinado equipo opere bajo las condiciones preestablecidas sin sufrir fallas que pueden ser causadas de manera intrínseca por desgaste y deterioro, errores humanos y problemas de diseño.
 
