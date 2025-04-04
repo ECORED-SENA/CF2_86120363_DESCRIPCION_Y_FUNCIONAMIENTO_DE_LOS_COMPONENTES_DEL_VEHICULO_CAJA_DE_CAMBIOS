@@ -15,9 +15,9 @@
           img(src="@/assets/curso/temas/tema2/img-1.svg").img65
 
       .d-flex.justify-content-start.mb-4
-        .titulo-segundo-nivel
+        #t_2_1.titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-          h3(data-aos="fade-left") Dificultad para realizar el cambio
+          h3(data-aos="fade-left") 2.1 Dificultad para realizar el cambio
         
       .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.mb-5(style="background-color: #FAEFA0")
         .bloque-texto-g__img(
@@ -35,13 +35,13 @@
           img(src="@/assets/curso/temas/tema2/img-3.png" style="max-width: 395px").mx-auto.img65
     
     .d-flex.justify-content-start.mb-4
-      .titulo-segundo-nivel
+      #t_2_2.titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-        h3(data-aos="fade-left") Corrimiento y salto de marcha
+        h3(data-aos="fade-left") 2.2 Corrimiento y salto de marcha
     
     .d-flex.flex-wrap.justify-content-center.align-items-center.gap-4.p-3.mb-4(data-aos="fade-right")
       .col-12.col-md.order-2.order-lg-1
-        p.mb-0 Cuando en una transmisión la palanca “salta” o se mueve a un punto muerto durante la operación, primero se debe verificar el varillaje de la transmisión y los brazos de la palanca de cambios. Si el conjunto de cambio está muy gastado, debe reconstruirse o reemplazarse. Un rodamiento de embrague desgastado también puede provocar que el cambio se salga de marcha. La vibración severa, causada por un eje de entrada tambaleante, puede mover las horquillas de cambio y los sincronizadores.
+        p.mb-0 Cuando en una transmisión la palanca “salta” o se mueve a un punto muerto durante la operación, primero se debe verificar el varillaje de la transmisión y los brazos de la palanca de cambios. Si el conjunto de cambios está muy gastado, debe reconstruirse o reemplazarse. Un rodamiento de embrague desgastado también puede provocar que el cambio se salga de marcha. La vibración severa, causada por un eje de entrada tambaleante, puede mover las horquillas de cambio y los sincronizadores.
       .col-auto.order-1.order-lg-2
         img(src="@/assets/curso/temas/tema2/img-4.svg").img65
 
@@ -58,9 +58,9 @@
 
     .bg-image.bg-image-1
       .d-flex.justify-content-start.mb-4
-        .titulo-segundo-nivel
+        #t_2_3.titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-          h3(data-aos="fade-left") Vibración
+          h3(data-aos="fade-left") 2.3 Vibración
       
       p.mb-5(data-aos="fade-right") Las vibraciones de la transmisión pueden ser muy difíciles de identificar; no hay que olvidar que pueden ser producidas por cualquier componente del sistema de transmisión, por lo que se debe incluir desde el motor hasta los conjuntos de la rueda motriz.
 
@@ -81,11 +81,11 @@
       p.mb-4(data-aos="fade-right") En algunos casos, el daño a la transmisión causado por la vibración se produce sin que el conductor lo note. 
 
       .d-flex.justify-content-start.mb-4
-        .titulo-segundo-nivel
+        #t_2_4.titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-          h3(data-aos="fade-left") Operación ruidosa 
+          h3(data-aos="fade-left") 2.4 Operación ruidosa
       
-      p.mb-5(data-aos="fade-right") En el siguiente podcast se analizará qué es la operación ruidosa, cómo identificarla y las posibles causas detrás de este fenómeno.
+      p.mb-5(data-aos="fade-right") En el siguiente #[em podcast] se analizará qué es la operación ruidosa, cómo identificarla y las posibles causas detrás de este fenómeno.
 
     .d-flex.flex-wrap.justify-content-center.mb-5
       .col-lg-7.pe-lg-3.order-2.order-lg-1
@@ -93,7 +93,7 @@
           .col-auto
             img(src="@/assets/curso/temas/tema2/img-8.svg")
           .col-12.col-xl
-            h3(style="color: #F3D913") Pódcast
+            h3(style="color: #F3D913") #[em Podcast]
             p.text-white Operación ruidosa
             .tarjeta.audio-t3.p-4.audio-t2
               TarjetaAudio.color-acento-contenido.audio-c(
@@ -104,9 +104,9 @@
         img.mb-auto(src="@/assets/curso/temas/tema2/img-9.png" data-aos="fade-left")
     
     .d-flex.justify-content-start.mb-4
-      .titulo-segundo-nivel
+      #t_2_5.titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-        h3(data-aos="fade-left") Golpeteo o ruido sordo
+        h3(data-aos="fade-left") 2.5 Golpeteo o ruido sordo
     
     p.mb-5 Un golpeteo puede ser causado por:
 
@@ -116,28 +116,28 @@
           .row.justify-content-center.mb-3
             img(src='@/assets/curso/temas/tema2/img-10.svg', alt='Texto que describa la imagen' style="max-width: 108px")
           h4.text-center Engranes:
-          p.text-center abolladuras o inflamaciones en el diente de engrane. 
+          p.text-center Abolladuras o inflamaciones en el diente de engrane. 
 
       .col-12.col-lg.mb-4.mb-lg-0.d-flex
         .tarjeta--boton.color-primario.p-4.w-100
           .row.justify-content-center.mb-3
             img(src='@/assets/curso/temas/tema2/img-11.svg', alt='Texto que describa la imagen' style="max-width: 108px")
           h4.text-center Rodamientos:
-          p.text-center el ruido aparece a velocidades de flecha bajas en cualquier posición. Se produce por los rodamientos con bolas o rodillos dañados, o con superficies resquebrajadas o astilladas. 
+          p.text-center El ruido aparece a velocidades de flecha bajas en cualquier posición. Se produce por los rodamientos con bolas o rodillos dañados, o con superficies resquebrajadas o astilladas. 
       
       .col-12.col-lg.mb-4.mb-lg-0.d-flex
         .tarjeta--boton.color-primario.p-4.w-100
           .row.justify-content-center.mb-3
             img(src='@/assets/curso/temas/tema2/img-12.svg', alt='Texto que describa la imagen' style="max-width: 108px")
           h4.text-center Engranaje fisurado:
-          p.text-center un engranaje fisurado o roto por carga de choque o por presionar la flecha durante la instalación producirá este sonido a bajas velocidades. A altas velocidades habrá un zumbido. 
+          p.text-center Un engranaje fisurado o roto por carga de choque o por presionar la flecha durante la instalación producirá este sonido a bajas velocidades. A altas velocidades habrá un zumbido. 
     
     p.mb-5 Un ruido de golpeteo puede comenzar como un gruñido; a medida que los cojinetes y los retenedores comienzan a deteriorarse, el ruido aumenta. En la mayoría de las transmisiones, el ruido producido será más prominente cuando se carga el engranaje, lo que facilita la identificación del engranaje que tiene problemas. 
 
     .d-flex.justify-content-start.mb-4
-      .titulo-segundo-nivel
+      #t_2_6.titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-        h3(data-aos="fade-left") Chirrido o gemido muy agudo 
+        h3(data-aos="fade-left") 2.6 Chirrido o gemido muy agudo
     
     p.mb-4 Se puede producir por:
 
@@ -169,9 +169,9 @@
 
     .bg-image.bg-image-1
       .d-flex.justify-content-start.mb-4
-        .titulo-segundo-nivel
+        #t_2_7.titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-          h3(data-aos="fade-left") Gruñidos
+          h3(data-aos="fade-left") 2.7 Gruñidos
       
       p.mb-4 Un gruñido puede ser causado por:
 
@@ -201,9 +201,9 @@
     p.mb-4 El diagnóstico se define como la identificación de la naturaleza de un fallo, basado en los síntomas detectados, mediante inspección, pruebas y su análisis.
 
     .d-flex.justify-content-start.mb-4
-      .titulo-segundo-nivel
+      #t_2_8.titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-        h3(data-aos="fade-left") Consejos útiles para el diagnóstico
+        h3(data-aos="fade-left") 2.8 Consejos útiles para el diagnóstico
     
     p.mb-4 Para realizar un buen diagnóstico se debe comenzar escuchando atentamente al cliente o al conductor sobre los inconvenientes que presenta el vehículo con la caja de cambios; después se debe hacer lo siguiente:
 
@@ -256,9 +256,9 @@
           p.mb-0 Es importante tener en cuenta que el embrague y la caja de cambios están relacionados entre sí. Por ejemplo, si se presenta un fallo en el embrague, pueden aparecer ruidos en la caja de cambios, que patine el coche o que sea difícil engranar una marcha. En estos casos, no es una falla de la transmisión, sino que puede ser un desgaste excesivo en el disco de embrague, falta de ajuste, desequilibrio o alguna otra falla en este componente.
 
       .d-flex.justify-content-start.mb-4
-        .titulo-segundo-nivel
+        #t_2_9.titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-          h3(data-aos="fade-left") Guía de solución de problemas
+          h3(data-aos="fade-left") 2.9 Guía de solución de problemas
       
       .d-flex.flex-wrap.justify-content-center.align-items-center.gap-4.mb-4(data-aos="fade-right")
         .col-12.col-lg.order-2.order-lg-1.d-flex
@@ -270,23 +270,48 @@
       LineaTiempoC.color-acento-botones.p-4.tarjeta(style="background-color: white")
         .col-xl-10.mx-auto.d-flex.flex-wrap(titulo="Fugas de aceite")
           p.mb-4.fw-bold.w-100(style="color: #2D3BF3") Fugas de aceite
-          .col-md-6.col-lg-5.mb-4.border-right-ul
-            p.mb-4.fw-bold Causa posible
-            ul.ul-marker-check.mb-0.pe-md-4
-              li.mb-2 Tapa suelta.  
-              li.mb-2 Empaquetadura floja o defectuosa.  
-              li.mb-2 Retenedor del cojinete delantero flojo o roto.  
-              li.mb-2 Junta defectuosa.  
-              li.mb-2 Sello del eje de salida desgastado.  
-              li.mb-2 Nivel de lubricante demasiado alto. 
-          .col-md-6.col-lg-7.ps-md-4.ps-lg-5
-            p.mb-4.fw-bold Corrección
-            ul.ul-marker-check.mb-0
-              li.mb-2 Apretar la tapa.  
-              li.mb-2 Reemplazar empaquetadura.  
-              li.mb-2 Apretar o reemplazar retenedor.  
-              li.mb-2 Reemplazar sello.  
-              li.mb-2 Drenar al nivel recomendado.
+          table.table-pro-vs-contr
+            tr
+              td.p-0.text-start
+                p.mb-4.fw-bold Causa posible
+              td.p-0.text-start
+                p.mb-4.fw-bold Corrección
+            tr
+              td.p-0.text-start
+                ul.ul-marker-check.mb-0.pe-md-4
+                  li Tapa suelta.
+              td.p-0.text-start
+                ul.ul-marker-check.mb-0
+                  li.mb-2 Apretar la tapa. 
+            tr
+              td.p-0.text-start
+                ul.ul-marker-check.mb-0.pe-md-4
+                  li Empaquetadura floja o defectuosa.  
+              td.p-0.text-start
+                ul.ul-marker-check.mb-0
+                  li.mb-2 Reemplazar empaquetadura.  
+            tr
+              td.p-0.text-start
+                ul.ul-marker-check.mb-0.pe-md-4
+                  li Retenedor del cojinete delantero flojo o roto.
+              td.p-0.text-start
+                ul.ul-marker-check.mb-0
+                  li.mb-2 Apretar o reemplazar retenedor.
+            tr
+              td.p-0.text-start
+                ul.ul-marker-check.mb-0.pe-md-4
+                  li Junta defectuosa.
+                  li Sello del eje de salida desgastado.
+              td.p-0.text-start
+                ul.ul-marker-check.mb-0
+                  li.mb-2 Reemplazar sello.
+            tr
+              td.p-0.text-start
+                ul.ul-marker-check.mb-0.pe-md-4
+                  li Nivel de lubricante demasiado alto.
+              td.p-0.text-start
+                ul.ul-marker-check.mb-0
+                  li.mb-2 Drenar al nivel recomendado.
 
         .col-xl-10.mx-auto.d-flex.flex-wrap(titulo="Cambio duro")
           p.mb-4.fw-bold.w-100(style="color: #2D3BF3") Cambio duro
@@ -323,7 +348,8 @@
               li.mb-2 Reemplazar sincronizadores.  
               li.mb-2 Reparar sistema de bloqueo.  
               li.mb-2 Reemplazar horquillas o ejes desgastados.  
-              li.mb-2 Sustituir rodamientos y eje si es necesario. 
+              li.mb-2 Sustituir rodamientos y eje si es necesario.
+              li.mb-2 Reemplazo o rectificación del eje de salida.
         
         .col-xl-10.mx-auto.d-flex.flex-wrap(titulo="Choques al cambiar")
           p.mb-4.fw-bold.w-100(style="color: #2D3BF3") Choques al cambiar
@@ -439,4 +465,13 @@ export default {
       background-image: linear-gradient(#1E29A8, #1E29A8)
       &::-webkit-slider-thumb
         background-color: #1E29A8
+.table-pro-vs-contr
+  width: 100%
+  min-width: 200px
+  tr td
+    border: none
+    vertical-align: top
+    ul li
+      padding-left: .3rem
+      margin-bottom: .8rem
 </style>

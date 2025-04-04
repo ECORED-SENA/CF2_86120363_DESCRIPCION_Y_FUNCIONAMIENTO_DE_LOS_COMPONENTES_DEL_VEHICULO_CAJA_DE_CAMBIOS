@@ -9,7 +9,7 @@
   </template>
 
 <script>
-import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
+import Actividad from '../components/actividad/Actividad'
 export default {
   name: 'ActividadDidactica',
   components: {
@@ -362,7 +362,7 @@ export default {
               esCorrecta: false,
             },
             {
-              id: 'b',
+              id: 'd',
               texto: 'Cambio sincronizado.',
               esCorrecta: true,
             },
@@ -452,7 +452,7 @@ export default {
               esCorrecta: true,
             },
             {
-              id: 'b',
+              id: 'd',
               texto: 'El rendimiento del combustible.',
               esCorrecta: false,
             },

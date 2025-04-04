@@ -23,7 +23,7 @@
         .col-auto
           img(src="@/assets/curso/temas/intro/img-2.svg").img65
         .col-12.col-md(style="background: #F9E69F")
-          p.p-4.mb-0 En este documento se presentan estrategias para el diagnóstico y resolución de problemas comunes en cajas de cambios manuales. A través de un enfoque detallado, se busca proporcionar conocimientos prácticos que permitan optimizar el uso y mantenimiento de este componente, minimizando las incidencias y mejorando el rendimiento del vehículo.
+          p.p-4.mb-0 En este componente se presentan estrategias para el diagnóstico y resolución de problemas comunes en cajas de cambios manuales. A través de un enfoque detallado, se busca proporcionar conocimientos prácticos que permitan optimizar el uso y mantenimiento de este componente, minimizando las incidencias y mejorando el rendimiento del vehículo.
 </template>
 
 <script>

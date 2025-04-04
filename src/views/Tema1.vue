@@ -22,9 +22,9 @@
               p.mb-0 En el caso de un equipo o un sistema como la caja de cambios, esto quiere decir que, si se requiere diagnosticar adecuadamente una falla, se deben conocer las distintas fallas y sus causas raíz.
 
         .d-flex.justify-content-start.mb-4
-          .titulo-segundo-nivel
+          #t_1_1.titulo-segundo-nivel
             img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-            h3(data-aos="fade-left") Confiabilidad operacional
+            h3(data-aos="fade-left") 1.1 Confiabilidad operacional
 
         p(data-aos="fade-right") La confiabilidad operacional se refiere a la capacidad de un sistema integrado por procesos, tecnología y personas capaces de cumplir su función dentro de los límites de diseño bajo unas condiciones de operación específicas.
           

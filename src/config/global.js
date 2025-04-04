@@ -38,12 +38,66 @@ export default {
         numero: '1',
         titulo: 'Confiabilidad y fallas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Confiabilidad operacional',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
         titulo: 'Fallas y quejas comunes de la transmisión',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Dificultad para realizar el cambio',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Corrimiento y salto de marcha',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Vibración',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Operación ruidosa',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Golpeteo o ruido sordo',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Chirrido o gemido muy agudo',
+            hash: 't_2_6',
+          },
+          {
+            numero: '2.7',
+            titulo: 'Gruñidos',
+            hash: 't_2_7',
+          },
+          {
+            numero: '2.8',
+            titulo: 'Consejos útiles para el diagnóstico',
+            hash: 't_2_8',
+          },
+          {
+            numero: '2.9',
+            titulo: 'Guía de solución de problemas',
+            hash: 't_2_9',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -110,7 +164,7 @@ export default {
     {
       tema: 'Fallas y quejas comunes de la transmisión',
       referencia:
-        'Fundación Carlos Slim. (2021). #EMBRAGUE y #TRANSMISIÓN: ¿Cómo funcionan? [Archivo de video].  Youtube',
+        'AUTOTECNICATV. (2021). #EMBRAGUE y #TRANSMISIÓN: ¿Cómo funcionan? [Archivo de video].  Youtube',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=4Syt_01ZRzA',
     },
@@ -216,13 +270,13 @@ export default {
           nombre: 'Carlos Edwin Abello Rubiano',
           cargo: 'Experto temático',
           centro:
-            'Centro de Gestión de Mercados Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Paola Alexandra Moya',
           cargo: 'Evaluadora Instruccional',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario',
         },
       ],
     },
@@ -233,37 +287,37 @@ export default {
           nombre: 'Carlos Julián Ramírez Benítez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+            'Regional Antioquia - Centro de Formación Centro de Servicios de Salud',
         },
         {
           nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador <em>full stack</em>',
           centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+            'Regional Antioquia - Centro de Formación Centro de Servicios de Salud',
         },
         {
           nombre: 'Alejandro Delgado Acosta',
           cargo: 'Intérprete Lenguaje de señas',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario',
         },
         {
           nombre: 'Cristhian Giovanni Gordillo Segura',
           cargo: 'Intérprete Lenguaje de señas',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario',
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
           cargo: 'Animador y Productor Multimedia',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario',
         },
         {
           nombre: 'Andrés Felipe Guevara Ariza',
           cargo: 'Locución',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario',
         },
       ],
     },
@@ -274,25 +328,25 @@ export default {
           nombre: 'Aixa Natalia Sendoya Fernández',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario',
         },
         {
           nombre: 'Raúl Mosquera Serrano',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Regional Huila - Centro Agroempresarial y Desarrollo Pecuario',
         },
       ],
     },
