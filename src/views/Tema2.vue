@@ -51,9 +51,9 @@
       .col-lg-8.p-4.px-lg-5(style="background-color: #F1EDE6" data-aos="fade-left")
         p.fw-bold.mb-4 Otras causas de que el cambio se salga durante una marcha son: 
         ul.ul-marker-check
-          li.mb-3 Sincronizadores desgastados.
-          li.mb-3 Sistema de bloqueo o de mantenimiento de velocidades desgastado.
-          li.mb-3 Conjunto de horquillas o el eje selector desgastados.
+          li.mb-3.d-flex Sincronizadores desgastados.
+          li.mb-3.d-flex Sistema de bloqueo o de mantenimiento de velocidades desgastado.
+          li.mb-3.d-flex Conjunto de horquillas o el eje selector desgastados.
           li Juego excesivo en los conjuntos de ejes intermediario y secundario.
 
     .bg-image.bg-image-1
@@ -180,8 +180,8 @@
           img(src="@/assets/curso/temas/tema2/img-16.jpg")
         .col-lg-8.p-4.d-flex.align-items-center(style="background-color: #F1EDE6" data-aos="fade-left")
           ul.ul-marker-check.mb-0
-            li.mb-2 La sincronización inadecuada de la transmisión durante el montaje.
-            li La sincronización inadecuada debido al giro del engranaje en el eje intermediario.
+            li.mb-2.d-flex La sincronización inadecuada de la transmisión durante el montaje.
+            li.d-flex La sincronización inadecuada debido al giro del engranaje en el eje intermediario.
 
       p.mb-4 Ambas condiciones producen un error en el espaciado de los dientes. Los ruidos de baja frecuencia como gruñidos, zumbidos o un sonido de trituración generalmente son causados por engranajes desgastados, astillados, ásperos o agrietados. 
 
@@ -191,12 +191,12 @@
         .col-lg-8.p-4.d-flex.flex-wrap.align-content-center(style="background-color: #F1EDE6" data-aos="fade-left")
           p.fw-bold.mb-4 Las causas comunes por las que se deteriora una transmisión son:  
           ul.ul-marker-check.mb-0
-            li.mb-2 Mal uso del embrague al hacer cambios de marcha, como no presionarlo completamente.
-            li.mb-2 Sincronización manual inadecuada de las velocidades.
-            li.mb-2 Apoyar la mano continuamente sobre la palanca de cambios ejerce una presión que ocasiona problemas de holguras en las arandelas y muelles de la palanca de cambios, además de averías en las horquillas selectoras de velocidades.
-            li.mb-2 Bajo nivel de aceite.
-            li.mb-2 No hacer cambio de aceite en el tiempo o kilometraje estipulado por el fabricante.
-            li.mb-2 Usar un aceite inadecuado que no coincide con las especificaciones recomendadas por el fabricante.
+            li.mb-2.d-flex.d-flex Mal uso del embrague al hacer cambios de marcha, como no presionarlo completamente.
+            li.mb-2.d-flex.d-flex Sincronización manual inadecuada de las velocidades.
+            li.mb-2.d-flex.d-flex Apoyar la mano continuamente sobre la palanca de cambios ejerce una presión que ocasiona problemas de holguras en las arandelas y muelles de la palanca de cambios, además de averías en las horquillas selectoras de velocidades.
+            li.mb-2.d-flex.d-flex Bajo nivel de aceite.
+            li.mb-2.d-flex.d-flex No hacer cambio de aceite en el tiempo o kilometraje estipulado por el fabricante.
+            li.mb-2.d-flex.d-flex Usar un aceite inadecuado que no coincide con las especificaciones recomendadas por el fabricante.
     
     p.mb-4 El diagnóstico se define como la identificación de la naturaleza de un fallo, basado en los síntomas detectados, mediante inspección, pruebas y su análisis.
 
@@ -212,35 +212,35 @@
         img(src="@/assets/curso/temas/tema3/img-1.jpg")
       .col-lg-8.p-4.d-flex.flex-wrap.align-content-center(style="background-color: #F1EDE6" data-aos="fade-left")
         ol.lista-ol--cuadro.lista-ol.mb-0
-          li.mb-2
+          li.mb-2.d-flex.d-flex
             .lista-ol--cuadro__vineta.v--green
               span A
             | Revisar el nivel de aceite (en las transmisiones donde esta operación se pueda realizar fácilmente).
-          li.mb-2
+          li.mb-2.d-flex.d-flex
             .lista-ol--cuadro__vineta.v--green
               span B
             | Verificar que el aceite esté en buen estado.
-          li.mb-2
+          li.mb-2.d-flex.d-flex
             .lista-ol--cuadro__vineta.v--green
               span C
             | Revisar que no existan fugas de aceite debajo del vehículo.
-          li.mb-2
+          li.mb-2.d-flex.d-flex
             .lista-ol--cuadro__vineta.v--green
               span D
             | Solicitar permiso al cliente para realizar un recorrido con el vehículo y así poder recopilar más información para diagnosticar mejor la falla.
-          li.mb-2
+          li.mb-2.d-flex.d-flex
             .lista-ol--cuadro__vineta.v--green
               span E
             | Encender el vehículo y dejarlo calentar.
-          li.mb-2
+          li.mb-2.d-flex.d-flex
             .lista-ol--cuadro__vineta.v--green
               span F
             | Identificar si se escucha algún tipo de sonido y en qué condición se presenta este sonido, cuando está en neutro o en algún cambio de velocidad.
-          li.mb-2
+          li.mb-2.d-flex.d-flex
             .lista-ol--cuadro__vineta.v--green
               span G
             | Revisar si los cambios entran normalmente o con dificultad; si entran con dificultad, identificar en cuál cambio es el problema o si esto se presenta en todos los cambios.
-          li.mb-2
+          li.mb-2.d-flex.d-flex
             .lista-ol--cuadro__vineta.v--green
               span H
             | Realizar un pequeño recorrido con el conductor del vehículo y escucharlo atentamente para identificar en qué condición ocurre el problema.
@@ -279,147 +279,147 @@
             tr
               td.p-0.text-start
                 ul.ul-marker-check.mb-0.pe-md-4
-                  li Tapa suelta.
+                  li.d-flex Tapa suelta.
               td.p-0.text-start
                 ul.ul-marker-check.mb-0
-                  li.mb-2 Apretar la tapa. 
+                  li.mb-2.d-flex Apretar la tapa. 
             tr
               td.p-0.text-start
                 ul.ul-marker-check.mb-0.pe-md-4
-                  li Empaquetadura floja o defectuosa.  
+                  li.d-flex Empaquetadura floja o defectuosa.  
               td.p-0.text-start
                 ul.ul-marker-check.mb-0
-                  li.mb-2 Reemplazar empaquetadura.  
+                  li.mb-2.d-flex Reemplazar empaquetadura.  
             tr
               td.p-0.text-start
                 ul.ul-marker-check.mb-0.pe-md-4
-                  li Retenedor del cojinete delantero flojo o roto.
+                  li.d-flex Retenedor del cojinete delantero flojo o roto.
               td.p-0.text-start
                 ul.ul-marker-check.mb-0
-                  li.mb-2 Apretar o reemplazar retenedor.
+                  li.mb-2.d-flex Apretar o reemplazar retenedor.
             tr
               td.p-0.text-start
                 ul.ul-marker-check.mb-0.pe-md-4
-                  li Junta defectuosa.
-                  li Sello del eje de salida desgastado.
+                  li.d-flex Junta defectuosa.
+                  li.d-flex Sello del eje de salida desgastado.
               td.p-0.text-start
                 ul.ul-marker-check.mb-0
-                  li.mb-2 Reemplazar sello.
+                  li.mb-2.d-flex Reemplazar sello.
             tr
               td.p-0.text-start
                 ul.ul-marker-check.mb-0.pe-md-4
-                  li Nivel de lubricante demasiado alto.
+                  li.d-flex Nivel de lubricante demasiado alto.
               td.p-0.text-start
                 ul.ul-marker-check.mb-0
-                  li.mb-2 Drenar al nivel recomendado.
+                  li.mb-2.d-flex Drenar al nivel recomendado.
 
         .col-xl-10.mx-auto.d-flex.flex-wrap(titulo="Cambio duro")
           p.mb-4.fw-bold.w-100(style="color: #2D3BF3") Cambio duro
           .col-md-6.col-lg-5.mb-4.border-right-ul
             p.mb-4.fw-bold Causa posible
             ul.ul-marker-check.mb-0.pe-md-4
-              li.mb-2 Exceso de recorrido libre del pedal del embrague.  
-              li.mb-2 Embrague gastado o defectuoso.  
-              li.mb-2 Varillaje necesita lubricación.  
-              li.mb-2 Lubricante incorrecto o insuficiente.  
-              li.mb-2 Transmisión desalineada.
+              li.mb-2.d-flex Exceso de recorrido libre del pedal del embrague.  
+              li.mb-2.d-flex Embrague gastado o defectuoso.  
+              li.mb-2.d-flex Varillaje necesita lubricación.  
+              li.mb-2.d-flex Lubricante incorrecto o insuficiente.  
+              li.mb-2.d-flex Transmisión desalineada.
           .col-md-6.col-lg-7.ps-md-4.ps-lg-5
             p.mb-4.fw-bold Corrección
             ul.ul-marker-check.mb-0
-              li.mb-2 Ajustar recorrido del pedal.  
-              li.mb-2 Reemplazar embrague.  
-              li.mb-2 Lubricar varillaje.  
-              li.mb-2 Usar lubricante recomendado.  
-              li.mb-2 Corregir alineación
+              li.mb-2.d-flex Ajustar recorrido del pedal.  
+              li.mb-2.d-flex Reemplazar embrague.  
+              li.mb-2.d-flex Lubricar varillaje.  
+              li.mb-2.d-flex Usar lubricante recomendado.  
+              li.mb-2.d-flex Corregir alineación
         
         .col-xl-10.mx-auto.d-flex.flex-wrap(titulo="Saltos de marcha")
           p.mb-4.fw-bold.w-100(style="color: #2D3BF3") Saltos de marcha
           .col-md-6.col-lg-5.mb-4.border-right-ul
             p.mb-4.fw-bold Causa posible
             ul.ul-marker-check.mb-0.pe-md-4
-              li.mb-2 Sincronizadores desgastados.  
-              li.mb-2 Sistema de bloqueo desgastado.  
-              li.mb-2 Horquillas o ejes desgastados.  
-              li.mb-2 Rodamientos del eje secundario desgastados.  
-              li.mb-2 Eje de salida doblado.
+              li.mb-2.d-flex Sincronizadores desgastados.  
+              li.mb-2.d-flex Sistema de bloqueo desgastado.  
+              li.mb-2.d-flex Horquillas o ejes desgastados.  
+              li.mb-2.d-flex Rodamientos del eje secundario desgastados.  
+              li.mb-2.d-flex Eje de salida doblado.
           .col-md-6.col-lg-7.ps-md-4.ps-lg-5
             p.mb-4.fw-bold Corrección
             ul.ul-marker-check.mb-0
-              li.mb-2 Reemplazar sincronizadores.  
-              li.mb-2 Reparar sistema de bloqueo.  
-              li.mb-2 Reemplazar horquillas o ejes desgastados.  
-              li.mb-2 Sustituir rodamientos y eje si es necesario.
-              li.mb-2 Reemplazo o rectificación del eje de salida.
+              li.mb-2.d-flex Reemplazar sincronizadores.  
+              li.mb-2.d-flex Reparar sistema de bloqueo.  
+              li.mb-2.d-flex Reemplazar horquillas o ejes desgastados.  
+              li.mb-2.d-flex Sustituir rodamientos y eje si es necesario.
+              li.mb-2.d-flex Reemplazo o rectificación del eje de salida.
         
         .col-xl-10.mx-auto.d-flex.flex-wrap(titulo="Choques al cambiar")
           p.mb-4.fw-bold.w-100(style="color: #2D3BF3") Choques al cambiar
           .col-md-6.col-lg-5.mb-4.border-right-ul
             p.mb-4.fw-bold Causa posible
             ul.ul-marker-check.mb-0.pe-md-4
-              li.mb-2 Anillo sincronizador desgastado o mal ensamblado.  
-              li.mb-2 Cambio demasiado rápido o a velocidades inadecuadas.  
-              li.mb-2 Embrague no se suelta correctamente.  
-              li.mb-2 Holgura excesiva del eje de salida. 
+              li.mb-2.d-flex Anillo sincronizador desgastado o mal ensamblado.  
+              li.mb-2.d-flex Cambio demasiado rápido o a velocidades inadecuadas.  
+              li.mb-2.d-flex Embrague no se suelta correctamente.  
+              li.mb-2.d-flex Holgura excesiva del eje de salida. 
           .col-md-6.col-lg-7.ps-md-4.ps-lg-5
             p.mb-4.fw-bold Corrección
             ul.ul-marker-check.mb-0
-              li.mb-2 Reemplazar anillo sincronizador.  
-              li.mb-2 Reducir velocidad antes de cambiar.  
-              li.mb-2 Ajustar o reparar embrague.  
-              li.mb-2 Ajustar holgura del eje de salida. 
+              li.mb-2.d-flex Reemplazar anillo sincronizador.  
+              li.mb-2.d-flex Reducir velocidad antes de cambiar.  
+              li.mb-2.d-flex Ajustar o reparar embrague.  
+              li.mb-2.d-flex Ajustar holgura del eje de salida. 
         
         .col-xl-10.mx-auto.d-flex.flex-wrap(titulo="Ruido en neutro")
           p.mb-4.fw-bold.w-100(style="color: #2D3BF3") Ruido en neutro 
           .col-md-6.col-lg-5.mb-4.border-right-ul
             p.mb-4.fw-bold Causa posible
             ul.ul-marker-check.mb-0.pe-md-4
-              li.mb-2 Rodamiento delantero desgastado.  
-              li.mb-2 Engranajes dañados o desgastados.  
-              li.mb-2 Lubricante contaminado.  
-              li.mb-2 Rodamientos del eje secundario desgastados. 
+              li.mb-2.d-flex Rodamiento delantero desgastado.  
+              li.mb-2.d-flex Engranajes dañados o desgastados.  
+              li.mb-2.d-flex Lubricante contaminado.  
+              li.mb-2.d-flex Rodamientos del eje secundario desgastados. 
           .col-md-6.col-lg-7.ps-md-4.ps-lg-5
             p.mb-4.fw-bold Corrección
             ul.ul-marker-check.mb-0
-              li.mb-2 Reemplazar rodamiento delantero.  
-              li.mb-2 Sustituir engranajes.  
-              li.mb-2 Limpiar y reparar transmisión.  
-              li.mb-2 Cambiar rodamientos del eje secundario. 
+              li.mb-2.d-flex Reemplazar rodamiento delantero.  
+              li.mb-2.d-flex Sustituir engranajes.  
+              li.mb-2.d-flex Limpiar y reparar transmisión.  
+              li.mb-2.d-flex Cambiar rodamientos del eje secundario. 
         
         .col-xl-10.mx-auto.d-flex.flex-wrap(titulo="Ruido marcha atrás")
           p.mb-4.fw-bold.w-100(style="color: #2D3BF3") Ruido marcha atrás
           .col-md-6.col-lg-5.mb-4.border-right-ul
             p.mb-4.fw-bold Causa posible
             ul.ul-marker-check.mb-0.pe-md-4
-              li.mb-2 Reductor de marcha atrás defectuoso.  
-              li.mb-2 Rodamientos de contraflecha dañados.  
-              li.mb-2 Engranaje o casquillos desgastados.  
-              li.mb-2 Sincronizador de reversa defectuoso. 
+              li.mb-2.d-flex Reductor de marcha atrás defectuoso.  
+              li.mb-2.d-flex Rodamientos de contraflecha dañados.  
+              li.mb-2.d-flex Engranaje o casquillos desgastados.  
+              li.mb-2.d-flex Sincronizador de reversa defectuoso. 
           .col-md-6.col-lg-7.ps-md-4.ps-lg-5
             p.mb-4.fw-bold Corrección
             ul.ul-marker-check.mb-0
-              li.mb-2 Reemplazar engranaje reductor.  
-              li.mb-2 Cambiar rodamientos de contraflecha.  
-              li.mb-2 Sustituir casquillos o engranaje dañado.  
-              li.mb-2 Cambiar sincronizador de reversa. 
+              li.mb-2.d-flex Reemplazar engranaje reductor.  
+              li.mb-2.d-flex Cambiar rodamientos de contraflecha.  
+              li.mb-2.d-flex Sustituir casquillos o engranaje dañado.  
+              li.mb-2.d-flex Cambiar sincronizador de reversa. 
 
         .col-xl-10.mx-auto.d-flex.flex-wrap(titulo="Ruido general")
           p.mb-4.fw-bold.w-100(style="color: #2D3BF3") Ruido general
           .col-md-6.col-lg-5.mb-4.border-right-ul
             p.mb-4.fw-bold Causa posible
             ul.ul-marker-check.mb-0.pe-md-4
-              li.mb-2 Insuficiente lubricación.  
-              li.mb-2 Rodamientos o engranajes desgastados.  
-              li.mb-2 Lubricante incorrecto o contaminado.  
-              li.mb-2 Desalineación de la transmisión.  
-              li.mb-2 Desgaste excesivo del sincronizador.
+              li.mb-2.d-flex Insuficiente lubricación.  
+              li.mb-2.d-flex Rodamientos o engranajes desgastados.  
+              li.mb-2.d-flex Lubricante incorrecto o contaminado.  
+              li.mb-2.d-flex Desalineación de la transmisión.  
+              li.mb-2.d-flex Desgaste excesivo del sincronizador.
           .col-md-6.col-lg-7.ps-md-4.ps-lg-5
             p.mb-4.fw-bold Corrección
             ul.ul-marker-check.mb-0
-              li.mb-2 Llenar con el nivel adecuado de lubricante.  
-              li.mb-2 Cambiar rodamientos y engranajes desgastados.  
-              li.mb-2 Usar lubricante recomendado.  
-              li.mb-2 Ajustar alineación.  
-              li.mb-2 Sustituir sincronizador desgastado. 
+              li.mb-2.d-flex Llenar con el nivel adecuado de lubricante.  
+              li.mb-2.d-flex Cambiar rodamientos y engranajes desgastados.  
+              li.mb-2.d-flex Usar lubricante recomendado.  
+              li.mb-2.d-flex Ajustar alineación.  
+              li.mb-2.d-flex Sustituir sincronizador desgastado. 
 </template>
 
 <script>

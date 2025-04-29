@@ -18,7 +18,6 @@
     right: 0%
     width: 98px
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -26,40 +25,20 @@
   100%
     transform: translateY(0px)
 
-.inicio
-  .banner-principal
-    .tarjeta, .container
-      background-position: 0% right !important
-.banner-principal
-  .banner-principal__row
-    .banner-principal__info
-      .banner-principal__componente
-        padding-right: 4.4rem
-    .banner-principal__img
-      padding-bottom: 0 !important
-      margin-bottom: -3px
-      img
-        max-width: 450px !important
+.banner-principal .tarjeta
+  background-position: left 50% !important
+  @media screen and ( max-width: $bp-max-lg )
+    background-image: url("../assets/curso/portada/fondo-banner-principal_lg.png") !important
+  @media screen and ( max-width: $bp-max-md )
+    background-image: url("../assets/curso/portada/fondo-banner-principal_md.png") !important
+
 .banner-interno__fondo
   background-image: url('../assets/curso/portada/fondo-header-page.jpg') !important
-  
-.contenedor-principal .seccion-principal .banner-principal
-  @media (max-width: $bp-max-lg)
-    .banner-principal__row
-      .banner-principal__info
-        .banner-principal__componente
-          padding-right: 0
-  .tarjeta
-    background-position: left 50%
-    @media (max-width: $bp-max-lg)
-      background-image: url("../assets/curso/portada/fondo-banner-principal_lg.png") !important
-      background-position: left bottom !important
-    @media (max-width: $bp-max-md)
-      background-image: url("../assets/curso/portada/fondo-banner-principal_md.png") !important
-      background-position: left 0% !important
 
 .banner-principal__row .banner-principal__img
-  width: 331px !important  
+  width: 330px !important
+  padding-bottom: 0px !important
+  margin-bottom: -8px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important   
